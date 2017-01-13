@@ -24,14 +24,14 @@ hooks:
 
 Rebuild the container:
 
-```
+```sh
 cd /var/discourse
 ./launcher rebuild app
 ```
 
 For the plugin to apply retroactively, you'll need to rebake old posts:
 
-```
+```sh
 cd /var/discourse
 ./launcher enter app
 rake posts:rebake
