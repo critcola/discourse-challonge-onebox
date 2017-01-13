@@ -18,6 +18,6 @@ class Onebox::Engine::ChallongeOnebox
 	end
 	
 	def to_html
-		"<iframe src=\"//#{hostname}/#{id}/module\" width=\"695\" height=\"500\" frameborder=\"0\" scrolling=\"auto\" allowtransparency=\"true\"></iframe>"
+		"<iframe src=\"//#{hostname}/#{id}/module\" width=\"695\" height=\"350\" frameborder=\"0\" scrolling=\"auto\" allowtransparency=\"true\"></iframe>"
 	end
 end
